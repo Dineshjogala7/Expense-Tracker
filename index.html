@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpenseTracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">ExpenseTracker</nav>
+    <section id="add-section">
+        <div class="tot">
+            <h1>Total Expenditure $ <span id="moneytot">0</span></h1>
+        </div>
+        <div class="add-item">
+            <form>
+                <div class="form-group">
+                    <label for="expense">Expense Name</label>
+                    <input type="text" id="expense" placeholder="Biryani">
+                </div>
+                <div class="form-group">
+                    <label for="amount">Expense Amount</label>
+                    <input type="text" id="amount" placeholder="ex.100">
+                </div>
+            </form>
+        </div>
+        <button id="add"> ADD Expense</button>
+    </section>
+    <section id="data-section">
+        <div class="head-sec">
+            <h1>Your Spendings !!</h1>
+        </div>
+        <div class="header">
+            <span>Expense</span>
+            <span>Amount</span>
+            <span>Delete</span>
+        </div>
+        <div class="orig-data">
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
